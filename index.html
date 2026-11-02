@@ -79,10 +79,39 @@ document.getElementById('kInj').textContent=fmt(inj);document.getElementById('kS
 let years=[...new Set(base.map(r=>+r.anio))].sort();let byY=years.map(y=>base.filter(r=>+r.anio===y).reduce((s,r)=>s+ +r.con_heridos,0)),sevY=years.map(y=>base.filter(r=>+r.anio===y).reduce((s,r)=>s+ +r.graves,0));
 makeChart('severityChart','doughnut',{labels:['Solo daños','Con heridos','Graves','Fatales'],datasets:[{data:[total-inj,inj-sev,sev-fat,fat],backgroundColor:colors.slice(0,4),borderColor:'#101d2e',borderWidth:3}]},{plugins:{legend:{position:'bottom'}},cutout:'66%'});
 makeChart('yearChart','line',{labels:years,datasets:[{label:'Con heridos',data:byY,borderColor:colors[0],backgroundColor:colors[0]+'22',fill:true,tension:.35},{label:'Graves',data:sevY,borderColor:colors[2],tension:.35}]},{plugins:{legend:{position:'bottom'}},scales:{x:{grid:{display:false}},y:{grid:{color:'#ffffff0a'}}}});
-const zones=D.zones.sort((a,b)=>+a.prioridad-+b.prioridad);const zf=document.getElementById('zoneFilter');zones.forEach(z=>{let o=document.createElement('option');o.value=z.zona;o.textContent=z.zona;zf.append(o});
-let tr=document.createElement('tr');tr.innerHTML=`<td class="rank">${z.prioridad}</td><td>${z.zona}</td><td>${fmt(z.graves_por_anio)}</td><td class="rr">${Number(z.RR_zona).toFixed(2)}×</td><td>${z.horario_critico||'—'}</td><td><span class="lever">${z.palanca_dominante||'—'}</span></td>`;if(z.prioridad<=10)document.getElementById('zoneTable').append(tr)});
-let hours=[...new Set(D.zone_hour.map(r=>r.horario))];let hf=document.getElementById('hourFilter');hours.forEach(h=>{let o=document.createElement('option');o.value=h;o.textContent=h;hf.append(o)});
-const levers={};zones.forEach(z=>levers[z.palanca_dominante]=(levers[z.palanca_dominante]||0)+1);
+const zones = [...D.zones].sort(
+    (a, b) => Number(a.prioridad) - Number(b.prioridad)
+);
+
+const zf = document.getElementById('zoneFilter');
+
+zones.forEach(z => {
+    // Agregar zona al filtro
+    const o = document.createElement('option');
+    o.value = z.zona;
+    o.textContent = z.zona;
+    zf.append(o);
+
+    // Crear fila de la tabla
+    const tr = document.createElement('tr');
+
+    tr.innerHTML = `
+        <td class="rank">${z.prioridad}</td>
+        <td>${z.zona}</td>
+        <td>${fmt(z.graves_por_anio)}</td>
+        <td class="rr">${Number(z.RR_zona).toFixed(2)}×</td>
+        <td>${z.horario_critico || '—'}</td>
+        <td>
+            <span class="lever">
+                ${z.palanca_dominante || '—'}
+            </span>
+        </td>
+    `;
+
+    if (Number(z.prioridad) <= 10) {
+        document.getElementById('zoneTable').append(tr);
+    }
+});
 makeChart('leverChart','doughnut',{labels:Object.keys(levers),datasets:[{data:Object.values(levers),backgroundColor:colors,borderColor:'#101d2e',borderWidth:3}]},{plugins:{legend:{position:'bottom'}},cutout:'60%'});
 updateHour();
 zf.addEventListener('change',updateHour);hf.addEventListener('change',updateHour);
