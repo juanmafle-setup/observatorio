@@ -1,0 +1,20 @@
+# Versiones exactas del entorno que produjo las cifras publicadas (Python 3.11).
+#
+# Con rangos (>=) dos instalaciones en fechas distintas resolvían versiones distintas, y el
+# proyecto depende de detalles que cambian entre minors: pandas 3 trae `Pandas4Warning` para
+# `Series.dt.dayofweek`, y numpy 2 cambió comportamientos de copia y de promoción de tipos.
+#
+# Para actualizar: crear un entorno limpio, correr las dos fases y los tests, y fijar acá lo que
+# resolvió pip. Las herramientas de desarrollo están en requirements-dev.txt.
+pandas==3.1.0
+numpy==2.4.6
+openpyxl==3.1.5
+pyarrow==26.0.0
+requests==2.34.2
+matplotlib==3.11.2
+seaborn==0.13.2
+scipy==1.17.1
+scikit-learn==1.9.1
+folium==0.20.0
+branca==0.8.2
+jupyter==1.1.1

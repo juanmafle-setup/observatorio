@@ -1,0 +1,26 @@
+# Configuración de las herramientas de desarrollo.
+#
+# El proyecto no se empaqueta: se usa desde la raíz del repo con `python -m pytest` y
+# `python -m ruff check .`. Por eso acá no hay [project] ni build-system, solo configuración.
+
+[tool.ruff]
+target-version = "py311"
+line-length = 120
+
+[tool.ruff.lint]
+# Se limita a lo que el proyecto se compromete a mantener limpio: errores de sintaxis,
+# imports desordenados o sin usar y nombres indefinidos. E501 (largo de línea) queda afuera
+# a propósito: las tablas, los títulos de gráficos y los mensajes de error no se parten a gusto.
+select = ["E4", "E7", "E9", "F", "I"]
+
+[tool.ruff.lint.isort]
+# Módulos del repo: van en su propio bloque, después de los de terceros.
+known-first-party = ["config", "preparacion", "enriquecer_coordenadas", "aforos"]
+
+[tool.ruff.lint.per-file-ignores]
+# En los notebooks `plt.tight_layout(); plt.show()` es el cierre habitual de cada gráfico y los
+# bucles usan nombres de una letra. Son celdas de análisis, no módulos: los *.py se revisan enteros.
+"*.ipynb" = ["E701", "E702", "E741"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

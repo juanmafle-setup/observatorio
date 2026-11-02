@@ -1,0 +1,11 @@
+# Herramientas de desarrollo: no hacen falta para correr los notebooks ni los scripts.
+#
+#   pip install -r requirements-dev.txt
+#   python -m pytest -q
+#   python -m ruff check .
+#   python -m nbstripout --install      (una vez por clon, activa el filtro de notebooks)
+#
+-r requirements.txt
+pytest==9.1.1
+ruff==0.17.2
+nbstripout==0.9.1

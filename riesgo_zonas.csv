@@ -1,0 +1,78 @@
+﻿zona,prioridad,graves_por_anio,RR_zona,RR_IC_inf,RR_IC_sup,graves_km2_anio,tasa_graves_%,siniestros,O_E_severidad,severidad_ajustada,horario_critico,RR_horario_critico,horario_con_exceso,%_vulnerables,%_graves_nocturnos,palanca_dominante,%_palanca_dominante,con_heridos_por_anio
+Near West Side,1,45.4286,4.0102,3.545,4.5208,3.0853,3.1222,10185,0.895,menos severa,Hábil · Tarde 12-18,5.5749,Hábil · Mañana 6-12 (1.3×),31.4465,32.0755,Concientización,55.0943,362.4286
+Austin,2,42.7143,3.7706,3.32,4.2666,2.3075,3.5998,8306,1.0709,no distinguible,Hábil · Tarde 12-18,5.0658,Fin de semana · Madrugada 0-6 (1.5×),20.7358,40.4682,Concientización,59.4203,368.7143
+Near North Side,3,33.0,2.913,2.5189,3.3528,4.6326,2.5993,8887,0.6849,menos severa,Hábil · Tarde 12-18,3.7786,—,53.6797,45.4545,Concientización,56.2162,278.4286
+Loop,4,32.5714,2.8752,2.4837,3.3123,7.5665,2.9435,7746,0.8612,menos severa,Hábil · Tarde 12-18,3.8167,Hábil · Madrugada 0-6 (1.6×),31.5789,46.9298,Fiscalización,53.8043,247.0
+Greater Grand Crossing,5,26.4286,2.333,1.9819,2.7298,2.8778,3.6794,5028,1.1297,no distinguible,Fin de semana · Tarde 12-18,3.1542,Hábil · Madrugada 0-6 (2.1×),17.2973,43.2432,Fiscalización,49.2188,236.8571
+West Town,6,25.1429,2.2195,1.8774,2.6073,2.1216,2.8768,6118,0.8126,menos severa,Hábil · Tarde 12-18,3.071,Hábil · Mañana 6-12 (1.5×),46.0227,32.3864,Concientización,68.6131,219.8571
+North Lawndale,7,22.0,1.942,1.6231,2.3068,2.6462,4.5738,3367,1.3066,más severa,Fin de semana · Tarde 12-18,2.6871,Fin de semana · Noche 18-24 (1.6×),24.026,40.2597,Concientización,50.4587,167.4286
+Auburn Gresham,8,21.7143,1.9168,1.6,2.2794,2.2246,3.946,3852,1.2266,más severa,Fin de semana · Tarde 12-18,2.778,Fin de semana · Tarde 12-18 (1.8×),29.6053,30.2632,Concientización,59.6491,170.5714
+West Englewood,9,21.4286,1.8916,1.577,2.252,2.6226,4.9213,3048,1.3193,más severa,Hábil · Tarde 12-18,2.6073,—,23.3333,44.6667,Fiscalización,50.0,158.7143
+Humboldt Park,10,20.0,1.7655,1.4621,2.1148,2.1425,3.587,3903,0.9862,no distinguible,Fin de semana · Tarde 12-18,2.2801,Fin de semana · Madrugada 0-6 (1.7×),36.4286,39.2857,Concientización,54.3478,168.4286
+West Garfield Park,11,19.4286,1.715,1.4163,2.0598,5.7942,4.7569,2859,1.2986,más severa,Fin de semana · Tarde 12-18,2.2953,—,28.6765,52.9412,Concientización,53.4091,147.5714
+Portage Park,12,17.8571,1.5763,1.2905,1.9081,1.7443,4.0154,3113,1.1241,no distinguible,Hábil · Tarde 12-18,2.1294,—,35.2,36.0,Concientización,55.5556,116.2857
+Belmont Cragin,13,17.8571,1.5763,1.2905,1.9081,1.7618,3.3675,3712,0.9332,no distinguible,Hábil · Tarde 12-18,2.0989,—,39.2,38.4,Concientización,60.9756,137.0
+West Ridge,14,17.2857,1.5259,1.2449,1.8528,1.8903,3.196,3786,1.0041,no distinguible,Hábil · Tarde 12-18,2.1647,—,43.8017,33.8843,Concientización,65.5914,114.8571
+East Garfield Park,15,17.2857,1.5259,1.2449,1.8528,3.4531,5.0228,2409,1.3036,más severa,Hábil · Tarde 12-18,2.135,—,25.6198,42.1488,Fiscalización,57.3034,126.7143
+South Shore,16,17.0,1.5007,1.2222,1.8252,2.2367,3.527,3374,1.0984,no distinguible,Hábil · Tarde 12-18,2.0484,—,26.8908,27.7311,Concientización,53.3333,140.7143
+Logan Square,17,16.5714,1.4628,1.1881,1.7836,1.7827,2.8699,4042,0.8285,menos severa,Hábil · Tarde 12-18,1.9355,—,39.6552,40.5172,Concientización,67.4699,139.8571
+Englewood,18,16.1429,1.425,1.154,1.742,2.0287,4.2513,2658,1.2104,no distinguible,Hábil · Tarde 12-18,1.8954,—,17.6991,38.0531,Fiscalización,57.1429,128.2857
+South Lawndale,19,14.8571,1.3115,1.0522,1.6169,1.2494,3.5374,2940,0.9012,no distinguible,Hábil · Tarde 12-18,1.7857,—,44.2308,35.5769,Concientización,59.7222,112.8571
+Lower West Side,20,14.5714,1.2863,1.0296,1.5891,1.9233,3.2207,3167,0.9589,no distinguible,Hábil · Tarde 12-18,1.7576,—,37.2549,36.2745,Concientización,56.7568,109.7143
+Grand Boulevard,21,13.8571,1.2232,0.9733,1.5193,3.0759,4.2303,2293,1.1551,no distinguible,Fin de semana · Tarde 12-18,1.6875,—,17.5258,29.8969,Concientización,57.1429,121.5714
+Chatham,22,13.2857,1.1728,0.9284,1.4634,1.7372,2.7499,3382,0.8514,no distinguible,Hábil · Tarde 12-18,1.7009,—,33.3333,40.8602,Concientización,63.7681,133.2857
+Roseland,23,13.1429,1.1602,0.9172,1.4494,1.0533,3.9689,2318,1.1778,no distinguible,Hábil · Tarde 12-18,1.6619,—,21.7391,29.3478,Concientización,65.625,106.0
+Lake View,24,13.0,1.1476,0.906,1.4353,1.6044,3.0023,3031,0.7147,menos severa,Fin de semana · Tarde 12-18,1.5652,—,62.6374,45.0549,Concientización,58.8235,106.4286
+Chicago Lawn,25,12.8571,1.1349,0.8948,1.4213,1.4082,4.2776,2104,1.1422,no distinguible,Hábil · Tarde 12-18,1.6434,—,36.6667,30.0,Concientización,76.0563,90.0
+Woodlawn,26,12.2857,1.0845,0.8501,1.3652,2.2873,4.1808,2057,1.2565,más severa,Hábil · Tarde 12-18,1.5146,—,25.5814,32.5581,Concientización,52.381,95.8571
+Ashburn,27,12.2857,1.0845,0.8501,1.3652,0.9762,3.9926,2154,1.437,más severa,Fin de semana · Tarde 12-18,1.5213,Fin de semana · Tarde 12-18 (1.8×),9.3023,31.3953,Concientización,69.8413,90.4286
+New City,28,12.1429,1.0719,0.839,1.3511,0.9708,3.0078,2826,0.9023,no distinguible,Hábil · Tarde 12-18,1.522,—,27.0588,34.1176,Fiscalización,52.7273,109.5714
+Garfield Ridge,29,11.1429,0.9836,0.7611,1.2525,1.0174,3.5072,2224,1.1997,no distinguible,Hábil · Tarde 12-18,1.4564,Hábil · Tarde 12-18 (1.6×),32.0513,30.7692,Concientización,70.0,80.1429
+Dunning,30,11.0,0.971,0.7501,1.2383,1.1429,3.9507,1949,1.2279,no distinguible,Hábil · Tarde 12-18,1.3381,—,23.3766,31.1688,Concientización,67.8571,77.1429
+Brighton Park,31,10.7143,0.9458,0.7279,1.21,1.5196,2.7788,2699,0.8794,no distinguible,Hábil · Tarde 12-18,1.3183,—,29.3333,28.0,Concientización,67.3469,90.1429
+Irving Park,32,10.7143,0.9458,0.7279,1.21,1.287,2.8323,2648,0.846,no distinguible,Hábil · Tarde 12-18,1.2783,—,45.3333,45.3333,Concientización,72.7273,93.8571
+Norwood Park,33,10.1429,0.8953,0.6838,1.1533,0.8952,3.8904,1825,1.3545,más severa,Hábil · Tarde 12-18,1.2766,—,16.9014,21.1268,Concientización,59.5745,67.2857
+Edgewater,34,10.0,0.8827,0.6728,1.1391,2.2217,2.8158,2486,0.8747,no distinguible,Fin de semana · Tarde 12-18,1.1944,Hábil · Noche 18-24 (1.7×),68.5714,40.0,Concientización,69.5652,74.7143
+Washington Heights,35,10.0,0.8827,0.6728,1.1391,1.3516,3.1208,2243,1.0583,no distinguible,Fin de semana · Tarde 12-18,1.2144,—,30.0,40.0,Concientización,58.3333,87.2857
+West Pullman,36,9.8571,0.8701,0.6618,1.1249,1.0678,4.4033,1567,1.3463,más severa,Hábil · Tarde 12-18,1.2267,—,15.942,33.3333,Concientización,58.3333,77.7143
+Rogers Park,37,9.4286,0.8323,0.6289,1.0822,1.9799,3.1429,2100,0.9165,no distinguible,Hábil · Tarde 12-18,1.2249,Hábil · Tarde 12-18 (1.6×),59.0909,30.303,Concientización,56.8627,64.2857
+Washington Park,38,9.2857,0.8197,0.618,1.0679,2.3588,3.9228,1657,1.1665,no distinguible,Hábil · Tarde 12-18,1.1027,—,20.0,44.6154,Fiscalización,53.8462,78.0
+Gage Park,39,9.1429,0.8071,0.607,1.0537,1.6058,3.8209,1675,1.0254,no distinguible,Hábil · Tarde 12-18,1.1314,—,45.3125,37.5,Concientización,73.4694,67.0
+Lincoln Park,40,9.1429,0.8071,0.607,1.0537,1.1143,2.1498,2977,0.5901,menos severa,Hábil · Tarde 12-18,1.1314,—,71.875,28.125,Concientización,68.2927,88.7143
+Jefferson Park,41,8.2857,0.7314,0.5417,0.9677,1.3749,4.0503,1432,1.314,no distinguible,Hábil · Tarde 12-18,1.0054,Hábil · Mañana 6-12 (1.8×),27.5862,25.8621,Concientización,60.8696,50.7143
+West Lawn,42,8.0,0.7062,0.5201,0.939,1.0461,3.5601,1573,1.0349,no distinguible,Hábil · Tarde 12-18,0.99,—,33.9286,25.0,Concientización,75.6098,59.0
+Morgan Park,43,7.8571,0.6936,0.5093,0.9246,0.9205,3.4876,1577,1.1652,no distinguible,Hábil · Tarde 12-18,0.9513,—,20.0,23.6364,Concientización,53.4884,61.1429
+Avalon Park,44,7.7143,0.681,0.4985,0.9102,2.3825,3.7604,1436,1.293,no distinguible,Hábil · Tarde 12-18,0.9209,—,7.4074,37.037,Concientización,66.6667,66.2857
+Avondale,45,7.7143,0.681,0.4985,0.9102,1.5018,2.5352,2130,0.7806,no distinguible,Hábil · Tarde 12-18,0.9059,—,40.7407,33.3333,Concientización,72.7273,66.5714
+Calumet Heights,46,7.7143,0.681,0.4985,0.9102,1.7006,4.6592,1159,1.5302,más severa,Hábil · Tarde 12-18,0.9209,—,12.963,46.2963,Fiscalización,55.2632,56.7143
+Albany Park,47,7.7143,0.681,0.4985,0.9102,1.5508,4.1507,1301,1.0385,no distinguible,Hábil · Tarde 12-18,0.9434,—,59.2593,25.9259,Concientización,59.5238,46.7143
+South Chicago,48,7.5714,0.6684,0.4877,0.8957,0.8738,4.7153,1124,1.2774,no distinguible,Hábil · Tarde 12-18,0.9204,—,16.9811,35.8491,Concientización,52.6316,56.0
+Forest Glen,49,7.1429,0.6305,0.4555,0.8523,0.8626,4.3975,1137,1.6379,más severa,Hábil · Tarde 12-18,0.9014,—,22.0,34.0,Concientización,53.8462,37.7143
+Near South Side,50,6.7143,0.5927,0.4235,0.8087,1.4521,2.1229,2214,0.6882,menos severa,Hábil · Tarde 12-18,0.8392,—,44.6809,29.7872,Concientización,54.2857,64.5714
+Armour Square,51,6.5714,0.5801,0.4129,0.7942,2.5475,3.168,1452,0.9299,no distinguible,Fin de semana · Tarde 12-18,0.7804,—,36.9565,28.2609,Fiscalización,54.5455,45.0
+South Deering,52,6.5714,0.5801,0.4129,0.7942,0.2328,3.1922,1441,1.2743,no distinguible,Hábil · Tarde 12-18,0.797,—,13.0435,23.913,Concientización,54.5455,60.2857
+Lincoln Square,53,6.4286,0.5675,0.4023,0.7796,0.9698,3.3657,1337,0.9067,no distinguible,Hábil · Tarde 12-18,0.7812,—,57.7778,48.8889,Concientización,68.5714,50.1429
+Douglas,54,6.2857,0.5549,0.3917,0.765,1.4707,3.9076,1126,1.0784,no distinguible,Fin de semana · Tarde 12-18,0.7669,—,36.3636,29.5455,Fiscalización,47.0588,46.1429
+Mckinley Park,55,6.2857,0.5549,0.3917,0.765,1.7158,2.3939,1838,0.8373,no distinguible,Hábil · Tarde 12-18,0.7592,—,25.0,31.8182,Concientización,61.2903,61.7143
+Fuller Park,56,5.7143,0.5044,0.3496,0.7063,3.0883,3.3417,1197,1.0247,no distinguible,Hábil · Tarde 12-18,0.6672,—,17.5,52.5,Fiscalización,58.6207,52.1429
+Hyde Park,57,5.7143,0.5044,0.3496,0.7063,1.3637,3.0395,1316,0.8892,no distinguible,Hábil · Tarde 12-18,0.69,—,25.0,32.5,Concientización,62.963,43.5714
+Uptown,58,5.7143,0.5044,0.3496,0.7063,0.9449,2.3599,1695,0.5996,menos severa,Fin de semana · Tarde 12-18,0.6878,—,62.5,35.0,Concientización,75.0,62.8571
+Bridgeport,59,5.5714,0.4918,0.3391,0.6916,1.0288,2.714,1437,0.7081,menos severa,Hábil · Tarde 12-18,0.6686,—,41.0256,28.2051,Concientización,48.2759,50.1429
+Archer Heights,60,5.4286,0.4792,0.3287,0.6769,1.0449,2.9096,1306,0.9602,no distinguible,Hábil · Tarde 12-18,0.6636,—,26.3158,44.7368,Concientización,59.2593,45.7143
+North Center,61,5.2857,0.4666,0.3183,0.6621,0.9972,2.8352,1305,0.8849,no distinguible,Fin de semana · Tarde 12-18,0.6324,—,45.9459,35.1351,Concientización,81.4815,42.0
+O'Hare,62,4.8571,0.4288,0.2872,0.6176,0.1406,3.8117,892,1.5263,más severa,Fin de semana · Tarde 12-18,0.5775,—,0.0,35.2941,Concientización,60.0,32.8571
+Hermosa,63,4.7143,0.4161,0.2769,0.6027,1.5565,3.8283,862,1.036,no distinguible,Hábil · Tarde 12-18,0.5583,—,51.5152,30.303,Concientización,66.6667,31.2857
+Clearing,64,4.4286,0.3909,0.2565,0.5728,0.67,3.16,981,1.0015,no distinguible,Hábil · Tarde 12-18,0.5312,—,29.0323,32.2581,Concientización,63.6364,37.4286
+North Park,65,4.1429,0.3657,0.2362,0.5427,0.6344,2.7593,1051,0.9145,no distinguible,Hábil · Tarde 12-18,0.5117,—,31.0345,24.1379,Concientización,78.5714,38.2857
+West Elsdon,66,3.5714,0.3153,0.1961,0.4821,1.1752,3.5765,699,1.0401,no distinguible,Hábil · Tarde 12-18,0.4337,—,32.0,28.0,Concientización,55.5556,30.2857
+Beverly,67,3.2857,0.29,0.1764,0.4515,0.3984,1.9442,1183,0.7987,no distinguible,Hábil · Tarde 12-18,0.3939,—,8.6957,21.7391,Concientización,68.4211,38.5714
+East Side,68,3.2857,0.29,0.1764,0.4515,0.4249,2.5054,918,0.7818,no distinguible,Hábil · Tarde 12-18,0.4075,—,21.7391,47.8261,Fiscalización,69.2308,32.8571
+Montclare,69,3.1429,0.2774,0.1667,0.4361,1.2268,3.1474,699,0.9293,no distinguible,Hábil · Tarde 12-18,0.371,—,31.8182,40.9091,Concientización,56.25,25.8571
+Edison Park,70,3.0,0.2648,0.157,0.4207,1.0207,4.6154,455,1.5674,no distinguible,Hábil · Tarde 12-18,0.358,—,28.5714,47.619,Concientización,81.25,14.8571
+Hegewisch,71,2.7143,0.2396,0.1378,0.3896,0.2002,3.8,500,1.3537,no distinguible,Hábil · Tarde 12-18,0.3225,—,10.5263,52.6316,Fiscalización,63.6364,22.0
+Kenwood,72,2.7143,0.2396,0.1378,0.3896,1.005,3.525,539,1.0608,no distinguible,Hábil · Tarde 12-18,0.3225,—,31.5789,36.8421,Concientización,53.8462,17.4286
+Pullman,73,2.2857,0.2018,0.1096,0.3424,0.417,4.4818,357,1.807,más severa,Hábil · Tarde 12-18,0.2757,—,6.25,31.25,Concientización,58.3333,14.8571
+Mount Greenwood,74,1.8571,0.1639,0.0825,0.2943,0.2645,1.7083,761,0.6387,no distinguible,Hábil · Tarde 12-18,0.2235,—,23.0769,38.4615,Concientización,55.5556,25.2857
+Riverdale,75,1.4286,0.1261,0.0566,0.2451,0.1563,3.1153,321,1.1698,no distinguible,Hábil · Tarde 12-18,0.1715,—,0.0,60.0,Concientización,57.1429,15.1429
+Burnside,76,1.1429,0.1009,0.0404,0.2114,0.7238,6.8376,117,2.6066,más severa,Hábil · Tarde 12-18,0.1378,—,0.0,37.5,Fiscalización,66.6667,5.4286
+Oakland,77,1.0,0.0883,0.0327,0.1942,0.6364,3.4146,205,1.0965,no distinguible,Hábil · Tarde 12-18,0.1198,—,42.8571,14.2857,Concientización,66.6667,7.4286

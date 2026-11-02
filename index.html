@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Observatorio Vial · Chicago</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<style>
+:root{--bg:#0b1220;--panel:#111c2e;--panel2:#16243a;--text:#eaf1fb;--muted:#9aabc4;--line:#263750;--blue:#55a7ff;--cyan:#40d6c5;--orange:#ffb454;--red:#ff657a}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at top,#172a46 0,#0b1220 55%);color:var(--text);font:15px/1.5 Inter,Segoe UI,Arial,sans-serif}
+header{padding:34px max(5vw,22px) 24px;border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap}
+.kicker{color:var(--cyan);text-transform:uppercase;letter-spacing:.15em;font-size:12px;font-weight:700}.title{font-size:clamp(26px,4vw,42px);font-weight:800;letter-spacing:-.04em;margin:6px 0}.subtitle{color:var(--muted);max-width:720px}
+.pill{border:1px solid #28547b;background:#122b46;color:#9dd2ff;border-radius:999px;padding:8px 13px;font-size:12px}
+main{max-width:1440px;margin:auto;padding:25px max(4vw,18px) 50px}
+.toolbar{display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin-bottom:20px}.toolbar label{color:var(--muted);font-size:13px}.toolbar select{background:#111c2e;color:var(--text);border:1px solid var(--line);border-radius:10px;padding:10px 13px}
+.kpis{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px;margin:20px 0}
+.card{background:linear-gradient(145deg,#142239,#101a2b);border:1px solid var(--line);border-radius:17px;padding:18px;box-shadow:0 8px 30px #0002;min-width:0}
+.kpi-label{color:var(--muted);font-size:13px}.kpi-value{font-size:clamp(22px,3vw,32px);font-weight:800;margin:8px 0 2px;letter-spacing:-.03em}.kpi-note{font-size:12px;color:var(--muted)}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.wide{grid-column:1/-1}.card h2{font-size:16px;margin:0 0 4px}.desc{font-size:12px;color:var(--muted);margin:0 0 16px}.chart-wrap{height:300px;position:relative}.chart-wrap.tall{height:370px}
+.table-wrap{overflow:auto}table{width:100%;border-collapse:collapse;font-size:13px}th,td{text-align:left;padding:11px;border-bottom:1px solid var(--line);white-space:nowrap}th{color:var(--muted);font-weight:600}td:first-child{font-weight:600}.rank{color:var(--cyan);font-weight:800}
+.insight{border-left:3px solid var(--cyan);padding:12px 15px;background:#102c35;border-radius:0 10px 10px 0;color:#d9f9f2;margin-top:15px;font-size:13px}
+footer{color:var(--muted);text-align:center;padding:24px;font-size:12px}
+@media(max-width:850px){.kpis{grid-template-columns:repeat(2,minmax(0,1fr))}.grid{grid-template-columns:1fr}.wide{grid-column:auto}}
+@media(max-width:480px){header{padding-top:24px}.kpis{gap:9px}.card{padding:14px}.chart-wrap{height:260px}}
+</style>
+</head>
+<body>
+<header><div><div class="kicker">Proyecto · Ciencia de Datos</div><div class="title">Observatorio Vial <span style="color:var(--cyan)">Chicago</span></div><div class="subtitle">Una lectura exploratoria de la siniestralidad vial para orientar intervenciones, priorizar zonas y comprender patrones temporales.</div></div><div class="pill">Datos analizados · 2018–2024</div></header>
+<main>
+<div class="toolbar"><label for="year">Período:</label><select id="year"><option value="all">2018–2024 · completo</option></select><span class="pill">Dashboard interactivo</span></div>
+<section class="kpis">
+<div class="card"><div class="kpi-label">Siniestros registrados</div><div class="kpi-value" id="kCrashes">—</div><div class="kpi-note">Total del período seleccionado</div></div>
+<div class="card"><div class="kpi-label">Siniestros con heridos</div><div class="kpi-value" id="kInjuries">—</div><div class="kpi-note" id="pInjuries">Incluye hechos con lesiones</div></div>
+<div class="card"><div class="kpi-label">Siniestros graves</div><div class="kpi-value" id="kSevere">—</div><div class="kpi-note">Categoría grave según línea base</div></div>
+<div class="card"><div class="kpi-label">Lesiones fatales</div><div class="kpi-value" id="kFatal">—</div><div class="kpi-note">Registros fatales del período</div></div>
+</section>
+<section class="grid">
+<div class="card"><h2>¿Con o sin personas heridas?</h2><p class="desc">Composición de los siniestros registrados.</p><div class="chart-wrap"><canvas id="injuryPie"></canvas></div></div>
+<div class="card"><h2>Distribución por año</h2><p class="desc">Evolución anual de siniestros y hechos con heridos.</p><div class="chart-wrap"><canvas id="yearChart"></canvas></div></div>
+<div class="card"><h2>Zonas con más siniestros</h2><p class="desc">Top 8 por volumen de registros (no equivale por sí solo a riesgo).</p><div class="chart-wrap tall"><canvas id="zoneChart"></canvas></div></div>
+<div class="card"><h2>Palanca dominante por zona</h2><p class="desc">Cantidad de zonas donde cada línea de intervención es dominante.</p><div class="chart-wrap"><canvas id="leverChart"></canvas></div></div>
+<div class="card wide"><h2>Riesgo grave estimado por franja</h2><p class="desc">Razón de riesgo (RR) agregada por horario. Valores superiores a 1 indican exceso respecto de la referencia del modelo.</p><div class="chart-wrap"><canvas id="hourChart"></canvas></div><div class="insight">Interpretación responsable: los conteos describen hechos registrados; no son automáticamente tasas de riesgo. Para comparar zonas o franjas es importante considerar exposición (tránsito/horas) y calidad de los datos.</div></div>
+<div class="card wide"><h2>Prioridad territorial · resumen</h2><p class="desc">Ranking provisto por el análisis de zonas. RR_zona compara el riesgo relativo estimado con la referencia utilizada en el proyecto.</p><div class="table-wrap"><table><thead><tr><th>#</th><th>Zona</th><th>Graves/año</th><th>RR zona</th><th>Horario crítico</th><th>Palanca dominante</th></tr></thead><tbody id="zoneTable"></tbody></table></div></div>
+</section>
+</main><footer>Observatorio Vial de Chicago · Trabajo académico · Fuente: Chicago Data Portal y análisis del proyecto</footer>
+<script>
+const fmt=n=>new Intl.NumberFormat('es-AR',{maximumFractionDigits:0}).format(n);
+const colors=['#55a7ff','#40d6c5','#ffb454','#ff657a','#a78bfa','#f472b6','#9ca3af','#facc15'];
+Chart.defaults.color='#a9bad1';Chart.defaults.font.family='Inter,Segoe UI,Arial';Chart.defaults.plugins.legend.labels.boxWidth=12;
+let charts={};
+function makeChart(id,type,data,opts={}){if(charts[id])charts[id].destroy();charts[id]=new Chart(document.getElementById(id),{type,data,options:{responsive:true,maintainAspectRatio:false,...opts}})}
+fetch('./data.json').then(r=>r.json()).then(D=>{
+ const select=document.getElementById('year');
+ D.yearly.forEach(x=>{let o=document.createElement('option');o.value=x.anio;o.textContent=x.anio;select.append(o)});
+ const years=D.yearly.map(x=>x.anio);
+ const zones=[...D.zones].sort((a,b)=>b.siniestros-a.siniestros).slice(0,8);
+ const leverCounts={};D.zones.forEach(z=>leverCounts[z.palanca_dominante]=(leverCounts[z.palanca_dominante]||0)+1);
+ const hourGroups={};D.hours.forEach(h=>{let key=h.horario.split(' · ').pop();hourGroups[key]??={graves:0,expected:0};hourGroups[key].graves+=Number(h.graves);hourGroups[key].expected+=Number(h.esperado_A)});
+ function render(y='all'){
+  const rows=D.yearly.filter(x=>y==='all'||String(x.anio)===String(y));const sum=k=>rows.reduce((a,b)=>a+Number(b[k]),0);
+  const crash=sum('siniestros'),inj=sum('con_heridos'),sev=sum('graves'),fatal=sum('fatales');
+  document.getElementById('kCrashes').textContent=fmt(crash);document.getElementById('kInjuries').textContent=fmt(inj);document.getElementById('kSevere').textContent=fmt(sev);document.getElementById('kFatal').textContent=fmt(fatal);
+  document.getElementById('pInjuries').textContent=crash?((inj/crash*100).toFixed(1).replace('.',',')+'% del total'): '—';
+  makeChart('injuryPie','doughnut',{labels:['Con heridos','Sin heridos reportados'],datasets:[{data:[inj,Math.max(0,crash-inj)],backgroundColor:[colors[1],colors[0]],borderColor:'#111c2e',borderWidth:3}]},{plugins:{legend:{position:'bottom'}},cutout:'64%'});
+  makeChart('yearChart','bar',{labels:rows.map(x=>x.anio),datasets:[{label:'Siniestros',data:rows.map(x=>x.siniestros),backgroundColor:colors[0],borderRadius:5},{label:'Con heridos',data:rows.map(x=>x.con_heridos),backgroundColor:colors[1],borderRadius:5}]},{scales:{x:{grid:{display:false}},y:{beginAtZero:true,grid:{color:'#263750'}}}});
+  makeChart('zoneChart','bar',{labels:zones.map(z=>z.zona),datasets:[{label:'Siniestros',data:zones.map(z=>z.siniestros),backgroundColor:colors[0],borderRadius:5}]},{indexAxis:'y',plugins:{legend:{display:false}},scales:{x:{grid:{color:'#263750'}},y:{grid:{display:false}}}});
+  makeChart('leverChart','doughnut',{labels:Object.keys(leverCounts),datasets:[{data:Object.values(leverCounts),backgroundColor:colors,borderColor:'#111c2e',borderWidth:3}]},{plugins:{legend:{position:'bottom'}},cutout:'58%'});
+  makeChart('hourChart','bar',{labels:Object.keys(hourGroups),datasets:[{label:'Graves observados',data:Object.values(hourGroups).map(x=>x.graves),backgroundColor:colors[0],borderRadius:5},{label:'Esperados (modelo)',data:Object.values(hourGroups).map(x=>x.expected),backgroundColor:colors[2],borderRadius:5}]},{scales:{x:{grid:{display:false}},y:{beginAtZero:true,grid:{color:'#263750'}}}});
+ }
+ document.getElementById('zoneTable').innerHTML=D.zones.slice(0,12).map(z=>`<tr><td class="rank">${z.prioridad}</td><td>${z.zona}</td><td>${Number(z.graves_por_anio).toFixed(1)}</td><td>${Number(z.RR_zona).toFixed(2)}×</td><td>${z.horario_critico}</td><td>${z.palanca_dominante}</td></tr>`).join('');
+ render();select.addEventListener('change',e=>render(e.target.value));
+}).catch(()=>document.body.insertAdjacentHTML('beforeend','<p style="padding:20px;color:#ff657a">No se pudo cargar data.json. Abrí el dashboard mediante un servidor o publicalo en Vercel.</p>'));
+</script></body></html>

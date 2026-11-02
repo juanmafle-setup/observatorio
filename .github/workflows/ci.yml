@@ -1,0 +1,40 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  tests:
+    name: Tests y estilo
+    # Imagen fija (no `ubuntu-latest`): el runner no debería cambiar solo de versión de Ubuntu.
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          # Los datos de entrada están en Git LFS: sin esto el runner recibe punteros de 133 bytes y
+          # los tests que abren la base fallan.
+          lfs: true
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.11"
+          cache: pip
+          cache-dependency-path: |
+            requirements.txt
+            requirements-dev.txt
+
+      - name: Instalar dependencias
+        run: pip install -r requirements-dev.txt
+
+      - name: Estilo
+        run: python -m ruff check .
+
+      - name: Tests
+        run: python -m pytest -q

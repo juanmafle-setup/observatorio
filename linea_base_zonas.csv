@@ -1,0 +1,540 @@
+﻿zona,anio,siniestros,con_heridos,graves,fatales
+Albany Park,2018,204,43,10,0
+Albany Park,2019,192,43,7,0
+Albany Park,2020,144,38,7,0
+Albany Park,2021,165,43,10,1
+Albany Park,2022,178,51,5,0
+Albany Park,2023,189,47,10,1
+Albany Park,2024,229,62,5,0
+Archer Heights,2018,202,48,9,2
+Archer Heights,2019,204,50,6,0
+Archer Heights,2020,156,45,8,2
+Archer Heights,2021,180,45,4,0
+Archer Heights,2022,181,36,4,0
+Archer Heights,2023,191,44,1,0
+Archer Heights,2024,192,52,6,3
+Armour Square,2018,228,47,10,2
+Armour Square,2019,262,46,8,0
+Armour Square,2020,160,39,10,1
+Armour Square,2021,193,38,6,0
+Armour Square,2022,195,43,4,1
+Armour Square,2023,177,43,3,0
+Armour Square,2024,237,59,5,0
+Ashburn,2018,315,102,13,1
+Ashburn,2019,285,68,13,0
+Ashburn,2020,313,90,15,1
+Ashburn,2021,333,88,15,1
+Ashburn,2022,288,90,8,0
+Ashburn,2023,309,92,12,2
+Ashburn,2024,311,103,10,2
+Auburn Gresham,2018,522,159,15,0
+Auburn Gresham,2019,507,149,21,0
+Auburn Gresham,2020,576,178,20,4
+Auburn Gresham,2021,639,200,25,1
+Auburn Gresham,2022,558,167,20,1
+Auburn Gresham,2023,523,164,21,2
+Auburn Gresham,2024,527,177,30,0
+Austin,2018,1049,316,45,1
+Austin,2019,1158,317,33,0
+Austin,2020,1298,400,49,2
+Austin,2021,1273,392,43,3
+Austin,2022,1202,372,41,2
+Austin,2023,1090,355,52,6
+Austin,2024,1236,429,36,1
+Avalon Park,2018,200,72,6,0
+Avalon Park,2019,209,60,8,0
+Avalon Park,2020,208,46,5,1
+Avalon Park,2021,229,79,13,3
+Avalon Park,2022,191,53,4,0
+Avalon Park,2023,198,70,11,0
+Avalon Park,2024,201,84,7,0
+Avondale,2018,345,84,10,1
+Avondale,2019,379,84,11,0
+Avondale,2020,241,38,5,0
+Avondale,2021,305,66,9,0
+Avondale,2022,289,64,8,0
+Avondale,2023,284,59,4,0
+Avondale,2024,287,71,7,0
+Belmont Cragin,2018,553,133,19,0
+Belmont Cragin,2019,650,171,22,0
+Belmont Cragin,2020,490,99,13,0
+Belmont Cragin,2021,529,131,21,1
+Belmont Cragin,2022,497,122,13,1
+Belmont Cragin,2023,522,159,21,3
+Belmont Cragin,2024,471,144,16,0
+Beverly,2018,156,44,1,0
+Beverly,2019,174,45,7,0
+Beverly,2020,174,37,3,0
+Beverly,2021,171,37,1,0
+Beverly,2022,191,43,3,0
+Beverly,2023,160,32,4,0
+Beverly,2024,157,32,4,1
+Bridgeport,2018,262,73,7,0
+Bridgeport,2019,252,53,4,0
+Bridgeport,2020,153,32,3,0
+Bridgeport,2021,177,47,5,1
+Bridgeport,2022,201,46,8,1
+Bridgeport,2023,194,45,6,0
+Bridgeport,2024,198,55,6,0
+Brighton Park,2018,449,98,13,2
+Brighton Park,2019,417,83,7,2
+Brighton Park,2020,345,79,12,0
+Brighton Park,2021,354,67,9,0
+Brighton Park,2022,356,84,8,1
+Brighton Park,2023,396,114,14,1
+Brighton Park,2024,382,106,12,0
+Burnside,2018,17,5,0,0
+Burnside,2019,24,4,1,0
+Burnside,2020,18,6,1,1
+Burnside,2021,17,12,4,1
+Burnside,2022,14,4,0,0
+Burnside,2023,13,1,0,0
+Burnside,2024,14,6,2,1
+Calumet Heights,2018,162,59,5,0
+Calumet Heights,2019,155,49,8,0
+Calumet Heights,2020,170,50,7,0
+Calumet Heights,2021,194,75,14,0
+Calumet Heights,2022,166,50,9,2
+Calumet Heights,2023,141,54,7,2
+Calumet Heights,2024,171,60,4,0
+Chatham,2018,471,128,13,1
+Chatham,2019,469,131,14,1
+Chatham,2020,496,133,13,2
+Chatham,2021,500,124,13,1
+Chatham,2022,470,113,14,1
+Chatham,2023,461,156,11,1
+Chatham,2024,515,148,15,1
+Chicago Lawn,2018,277,77,12,0
+Chicago Lawn,2019,294,83,17,0
+Chicago Lawn,2020,323,97,13,1
+Chicago Lawn,2021,352,96,17,0
+Chicago Lawn,2022,289,99,13,0
+Chicago Lawn,2023,262,86,8,1
+Chicago Lawn,2024,307,92,10,0
+Clearing,2018,119,27,3,0
+Clearing,2019,126,35,5,0
+Clearing,2020,127,30,6,0
+Clearing,2021,134,37,6,1
+Clearing,2022,173,47,4,1
+Clearing,2023,136,50,7,1
+Clearing,2024,166,36,0,0
+Douglas,2018,152,46,4,1
+Douglas,2019,133,41,6,0
+Douglas,2020,173,39,4,0
+Douglas,2021,182,54,7,0
+Douglas,2022,160,42,7,0
+Douglas,2023,171,48,10,0
+Douglas,2024,155,53,6,1
+Dunning,2018,317,80,14,0
+Dunning,2019,334,86,15,0
+Dunning,2020,224,55,6,0
+Dunning,2021,254,70,10,1
+Dunning,2022,276,82,13,0
+Dunning,2023,263,79,9,0
+Dunning,2024,281,88,10,1
+East Garfield Park,2018,322,130,23,0
+East Garfield Park,2019,349,122,14,0
+East Garfield Park,2020,323,117,19,1
+East Garfield Park,2021,368,136,22,2
+East Garfield Park,2022,341,127,16,1
+East Garfield Park,2023,341,121,18,2
+East Garfield Park,2024,365,134,9,1
+East Side,2018,131,29,1,0
+East Side,2019,121,31,5,0
+East Side,2020,129,36,4,0
+East Side,2021,126,30,4,0
+East Side,2022,140,30,4,0
+East Side,2023,138,32,4,1
+East Side,2024,133,42,1,0
+Edgewater,2018,393,77,9,0
+Edgewater,2019,414,74,14,0
+Edgewater,2020,296,68,9,0
+Edgewater,2021,284,59,9,0
+Edgewater,2022,336,80,9,1
+Edgewater,2023,368,74,8,0
+Edgewater,2024,395,91,12,0
+Edison Park,2018,78,17,0,0
+Edison Park,2019,74,16,3,0
+Edison Park,2020,54,13,6,0
+Edison Park,2021,64,11,2,0
+Edison Park,2022,54,14,2,1
+Edison Park,2023,59,14,3,0
+Edison Park,2024,72,19,5,0
+Englewood,2018,373,107,17,2
+Englewood,2019,350,113,18,1
+Englewood,2020,399,138,19,1
+Englewood,2021,441,144,21,0
+Englewood,2022,388,136,14,0
+Englewood,2023,337,126,15,0
+Englewood,2024,370,134,9,0
+Forest Glen,2018,204,45,14,0
+Forest Glen,2019,184,39,6,1
+Forest Glen,2020,117,35,7,0
+Forest Glen,2021,135,30,9,0
+Forest Glen,2022,150,37,4,0
+Forest Glen,2023,161,36,5,0
+Forest Glen,2024,186,42,5,1
+Fuller Park,2018,176,59,5,0
+Fuller Park,2019,138,46,4,0
+Fuller Park,2020,152,43,6,0
+Fuller Park,2021,186,51,11,1
+Fuller Park,2022,153,41,6,0
+Fuller Park,2023,202,57,4,0
+Fuller Park,2024,190,68,4,0
+Gage Park,2018,261,72,10,1
+Gage Park,2019,263,70,12,1
+Gage Park,2020,192,57,6,1
+Gage Park,2021,224,57,7,0
+Gage Park,2022,233,72,11,1
+Gage Park,2023,253,68,10,1
+Gage Park,2024,249,73,8,0
+Garfield Ridge,2018,348,91,15,1
+Garfield Ridge,2019,318,77,9,0
+Garfield Ridge,2020,216,59,14,1
+Garfield Ridge,2021,325,79,10,0
+Garfield Ridge,2022,323,83,10,1
+Garfield Ridge,2023,341,85,12,2
+Garfield Ridge,2024,353,87,8,1
+Grand Boulevard,2018,296,124,14,0
+Grand Boulevard,2019,267,96,8,0
+Grand Boulevard,2020,366,136,13,1
+Grand Boulevard,2021,422,137,19,1
+Grand Boulevard,2022,336,133,16,3
+Grand Boulevard,2023,311,111,17,1
+Grand Boulevard,2024,295,114,10,1
+Greater Grand Crossing,2018,671,197,23,3
+Greater Grand Crossing,2019,658,213,22,0
+Greater Grand Crossing,2020,739,244,24,1
+Greater Grand Crossing,2021,841,253,30,2
+Greater Grand Crossing,2022,689,212,28,1
+Greater Grand Crossing,2023,719,262,32,0
+Greater Grand Crossing,2024,711,277,26,1
+Hegewisch,2018,73,22,3,0
+Hegewisch,2019,77,19,4,2
+Hegewisch,2020,65,15,2,0
+Hegewisch,2021,62,23,4,0
+Hegewisch,2022,85,28,3,0
+Hegewisch,2023,64,24,0,0
+Hegewisch,2024,74,23,3,1
+Hermosa,2018,114,20,5,0
+Hermosa,2019,151,40,5,1
+Hermosa,2020,118,29,4,1
+Hermosa,2021,119,32,8,1
+Hermosa,2022,121,32,5,0
+Hermosa,2023,111,29,1,0
+Hermosa,2024,128,37,5,0
+Humboldt Park,2018,551,186,22,2
+Humboldt Park,2019,582,167,19,2
+Humboldt Park,2020,504,147,22,2
+Humboldt Park,2021,561,174,24,0
+Humboldt Park,2022,512,153,16,0
+Humboldt Park,2023,577,165,20,2
+Humboldt Park,2024,616,187,17,0
+Hyde Park,2018,178,40,5,0
+Hyde Park,2019,199,50,8,0
+Hyde Park,2020,183,49,9,0
+Hyde Park,2021,225,41,3,0
+Hyde Park,2022,194,43,7,0
+Hyde Park,2023,181,36,5,0
+Hyde Park,2024,156,46,3,0
+Irving Park,2018,381,98,12,0
+Irving Park,2019,449,102,14,1
+Irving Park,2020,297,69,10,2
+Irving Park,2021,341,75,4,0
+Irving Park,2022,398,104,12,1
+Irving Park,2023,375,88,9,0
+Irving Park,2024,407,121,14,0
+Jefferson Park,2018,231,59,16,0
+Jefferson Park,2019,216,48,8,0
+Jefferson Park,2020,170,49,10,0
+Jefferson Park,2021,175,31,4,0
+Jefferson Park,2022,194,52,7,0
+Jefferson Park,2023,187,40,1,0
+Jefferson Park,2024,259,76,12,0
+Kenwood,2018,67,11,0,0
+Kenwood,2019,66,21,3,1
+Kenwood,2020,57,13,4,0
+Kenwood,2021,90,21,3,0
+Kenwood,2022,102,19,1,1
+Kenwood,2023,94,17,4,0
+Kenwood,2024,63,20,4,0
+Lake View,2018,565,127,17,0
+Lake View,2019,507,103,12,0
+Lake View,2020,341,97,14,1
+Lake View,2021,366,86,17,2
+Lake View,2022,398,114,13,0
+Lake View,2023,435,110,8,0
+Lake View,2024,419,108,10,0
+Lincoln Park,2018,555,113,12,0
+Lincoln Park,2019,540,105,9,1
+Lincoln Park,2020,296,66,10,0
+Lincoln Park,2021,386,73,9,0
+Lincoln Park,2022,407,83,11,0
+Lincoln Park,2023,404,98,5,0
+Lincoln Park,2024,389,83,8,0
+Lincoln Square,2018,224,60,9,0
+Lincoln Square,2019,250,61,6,0
+Lincoln Square,2020,152,42,9,0
+Lincoln Square,2021,149,43,8,0
+Lincoln Square,2022,148,43,5,0
+Lincoln Square,2023,199,45,4,0
+Lincoln Square,2024,215,57,4,0
+Logan Square,2018,699,171,19,0
+Logan Square,2019,641,160,21,0
+Logan Square,2020,461,99,10,0
+Logan Square,2021,542,130,19,1
+Logan Square,2022,562,131,18,0
+Logan Square,2023,558,135,12,2
+Logan Square,2024,579,153,17,0
+Loop,2018,1337,248,27,0
+Loop,2019,1415,314,38,2
+Loop,2020,737,171,25,2
+Loop,2021,957,240,31,2
+Loop,2022,1047,241,38,0
+Loop,2023,1037,240,34,1
+Loop,2024,1216,275,35,2
+Lower West Side,2018,476,110,16,1
+Lower West Side,2019,482,102,7,0
+Lower West Side,2020,373,85,18,2
+Lower West Side,2021,432,94,12,0
+Lower West Side,2022,503,140,17,0
+Lower West Side,2023,460,125,19,3
+Lower West Side,2024,441,112,13,0
+Mckinley Park,2018,271,62,12,0
+Mckinley Park,2019,313,62,6,0
+Mckinley Park,2020,194,38,7,0
+Mckinley Park,2021,225,44,2,0
+Mckinley Park,2022,281,68,7,0
+Mckinley Park,2023,277,73,4,0
+Mckinley Park,2024,277,85,6,2
+Montclare,2018,99,25,6,1
+Montclare,2019,115,23,2,0
+Montclare,2020,89,21,0,0
+Montclare,2021,115,30,3,0
+Montclare,2022,85,29,5,0
+Montclare,2023,87,27,3,0
+Montclare,2024,109,26,3,0
+Morgan Park,2018,205,63,9,0
+Morgan Park,2019,205,64,9,0
+Morgan Park,2020,257,68,8,3
+Morgan Park,2021,263,62,7,0
+Morgan Park,2022,252,64,8,0
+Morgan Park,2023,199,51,6,0
+Morgan Park,2024,196,56,8,1
+Mount Greenwood,2018,101,29,3,0
+Mount Greenwood,2019,93,24,2,0
+Mount Greenwood,2020,124,24,2,1
+Mount Greenwood,2021,108,32,1,0
+Mount Greenwood,2022,110,19,3,0
+Mount Greenwood,2023,118,30,1,0
+Mount Greenwood,2024,107,19,1,0
+Near North Side,2018,1841,354,51,1
+Near North Side,2019,1719,320,42,1
+Near North Side,2020,838,231,24,1
+Near North Side,2021,1143,258,32,0
+Near North Side,2022,1228,281,35,0
+Near North Side,2023,1075,250,27,0
+Near North Side,2024,1043,255,20,0
+Near South Side,2018,283,62,9,0
+Near South Side,2019,411,87,11,0
+Near South Side,2020,228,41,5,0
+Near South Side,2021,313,66,5,1
+Near South Side,2022,303,59,6,0
+Near South Side,2023,348,76,8,0
+Near South Side,2024,328,61,3,0
+Near West Side,2018,1711,403,60,1
+Near West Side,2019,1701,395,48,3
+Near West Side,2020,1077,266,29,3
+Near West Side,2021,1265,329,43,3
+Near West Side,2022,1394,355,50,2
+Near West Side,2023,1467,378,48,1
+Near West Side,2024,1570,411,40,2
+New City,2018,395,99,13,0
+New City,2019,434,98,17,1
+New City,2020,355,103,15,1
+New City,2021,411,112,11,0
+New City,2022,455,137,12,1
+New City,2023,402,104,8,1
+New City,2024,374,114,9,0
+North Center,2018,259,58,6,0
+North Center,2019,202,38,4,0
+North Center,2020,150,30,6,0
+North Center,2021,165,34,2,0
+North Center,2022,178,46,7,1
+North Center,2023,163,43,6,0
+North Center,2024,188,45,6,0
+North Lawndale,2018,459,171,22,0
+North Lawndale,2019,474,169,16,2
+North Lawndale,2020,451,151,29,4
+North Lawndale,2021,552,181,24,3
+North Lawndale,2022,455,153,20,0
+North Lawndale,2023,470,159,20,2
+North Lawndale,2024,506,188,23,1
+North Park,2018,156,42,6,1
+North Park,2019,185,41,2,0
+North Park,2020,112,29,5,0
+North Park,2021,144,36,7,0
+North Park,2022,152,41,4,0
+North Park,2023,137,34,4,1
+North Park,2024,165,45,1,0
+Norwood Park,2018,268,69,13,0
+Norwood Park,2019,303,65,7,0
+Norwood Park,2020,196,50,11,0
+Norwood Park,2021,214,51,6,1
+Norwood Park,2022,278,77,14,0
+Norwood Park,2023,258,68,9,0
+Norwood Park,2024,308,91,11,0
+O'Hare,2018,112,25,4,0
+O'Hare,2019,135,34,5,0
+O'Hare,2020,103,32,5,0
+O'Hare,2021,103,29,7,1
+O'Hare,2022,133,28,5,0
+O'Hare,2023,170,36,4,0
+O'Hare,2024,136,46,4,0
+Oakland,2018,25,4,0,0
+Oakland,2019,23,6,1,0
+Oakland,2020,27,5,1,0
+Oakland,2021,42,10,1,0
+Oakland,2022,33,6,1,0
+Oakland,2023,30,13,1,0
+Oakland,2024,25,8,2,0
+Portage Park,2018,449,122,24,0
+Portage Park,2019,512,137,26,1
+Portage Park,2020,423,107,14,1
+Portage Park,2021,405,109,18,0
+Portage Park,2022,437,107,13,2
+Portage Park,2023,459,118,20,1
+Portage Park,2024,428,114,10,1
+Pullman,2018,64,22,5,0
+Pullman,2019,43,8,0,0
+Pullman,2020,54,17,2,0
+Pullman,2021,47,13,1,0
+Pullman,2022,49,13,3,0
+Pullman,2023,37,14,2,0
+Pullman,2024,63,17,3,0
+Riverdale,2018,34,11,0,0
+Riverdale,2019,56,19,2,0
+Riverdale,2020,49,14,2,0
+Riverdale,2021,49,14,1,0
+Riverdale,2022,38,12,2,0
+Riverdale,2023,62,26,3,1
+Riverdale,2024,33,10,0,0
+Rogers Park,2018,338,63,6,0
+Rogers Park,2019,323,56,11,0
+Rogers Park,2020,225,41,5,0
+Rogers Park,2021,270,62,9,0
+Rogers Park,2022,288,70,13,1
+Rogers Park,2023,343,77,15,0
+Rogers Park,2024,313,81,7,1
+Roseland,2018,321,99,11,0
+Roseland,2019,353,122,14,1
+Roseland,2020,374,116,14,0
+Roseland,2021,397,116,14,1
+Roseland,2022,312,105,15,2
+Roseland,2023,292,93,10,1
+Roseland,2024,269,91,14,1
+South Chicago,2018,132,40,8,1
+South Chicago,2019,142,49,7,1
+South Chicago,2020,186,72,12,0
+South Chicago,2021,179,59,6,0
+South Chicago,2022,168,62,10,1
+South Chicago,2023,159,59,8,0
+South Chicago,2024,158,51,2,0
+South Deering,2018,223,68,7,2
+South Deering,2019,214,61,7,0
+South Deering,2020,186,44,5,1
+South Deering,2021,201,52,10,1
+South Deering,2022,200,54,3,0
+South Deering,2023,188,63,9,1
+South Deering,2024,229,80,5,1
+South Lawndale,2018,391,102,17,1
+South Lawndale,2019,401,110,10,0
+South Lawndale,2020,347,88,13,2
+South Lawndale,2021,408,114,12,0
+South Lawndale,2022,418,118,21,2
+South Lawndale,2023,494,121,19,0
+South Lawndale,2024,481,137,12,1
+South Shore,2018,413,121,12,0
+South Shore,2019,454,130,21,1
+South Shore,2020,569,146,21,0
+South Shore,2021,584,160,20,0
+South Shore,2022,496,138,16,1
+South Shore,2023,446,133,16,0
+South Shore,2024,412,157,13,1
+Uptown,2018,261,65,5,0
+Uptown,2019,270,66,9,0
+Uptown,2020,190,48,4,0
+Uptown,2021,181,57,3,1
+Uptown,2022,232,56,8,3
+Uptown,2023,281,71,5,0
+Uptown,2024,280,77,6,0
+Washington Heights,2018,330,90,15,1
+Washington Heights,2019,277,70,7,0
+Washington Heights,2020,337,90,11,0
+Washington Heights,2021,333,87,6,0
+Washington Heights,2022,333,87,11,2
+Washington Heights,2023,303,89,11,0
+Washington Heights,2024,330,98,9,0
+Washington Park,2018,208,74,9,0
+Washington Park,2019,205,58,3,0
+Washington Park,2020,215,74,7,1
+Washington Park,2021,277,87,9,1
+Washington Park,2022,237,78,10,1
+Washington Park,2023,252,84,17,0
+Washington Park,2024,263,91,10,2
+West Elsdon,2018,137,33,6,1
+West Elsdon,2019,89,25,3,0
+West Elsdon,2020,78,23,4,0
+West Elsdon,2021,80,26,3,0
+West Elsdon,2022,101,33,2,0
+West Elsdon,2023,112,35,4,1
+West Elsdon,2024,102,37,3,1
+West Englewood,2018,358,123,17,2
+West Englewood,2019,445,155,16,0
+West Englewood,2020,479,181,33,5
+West Englewood,2021,511,191,26,6
+West Englewood,2022,484,166,22,0
+West Englewood,2023,402,142,19,0
+West Englewood,2024,369,153,17,2
+West Garfield Park,2018,357,130,17,1
+West Garfield Park,2019,373,139,16,0
+West Garfield Park,2020,473,189,29,1
+West Garfield Park,2021,462,163,26,2
+West Garfield Park,2022,386,143,15,2
+West Garfield Park,2023,373,116,19,3
+West Garfield Park,2024,435,153,14,2
+West Lawn,2018,263,69,11,1
+West Lawn,2019,242,54,12,0
+West Lawn,2020,172,42,6,1
+West Lawn,2021,249,63,10,1
+West Lawn,2022,224,61,6,0
+West Lawn,2023,207,58,8,0
+West Lawn,2024,216,66,3,0
+West Pullman,2018,160,48,8,0
+West Pullman,2019,204,61,10,0
+West Pullman,2020,232,83,10,0
+West Pullman,2021,253,101,16,1
+West Pullman,2022,259,91,8,1
+West Pullman,2023,213,66,5,0
+West Pullman,2024,246,94,12,1
+West Ridge,2018,573,114,11,1
+West Ridge,2019,638,127,19,0
+West Ridge,2020,422,95,16,0
+West Ridge,2021,431,90,17,5
+West Ridge,2022,474,111,13,0
+West Ridge,2023,626,128,23,2
+West Ridge,2024,622,139,22,2
+West Town,2018,1072,247,35,0
+West Town,2019,998,232,25,0
+West Town,2020,596,158,19,1
+West Town,2021,787,186,20,1
+West Town,2022,927,234,33,3
+West Town,2023,898,231,22,0
+West Town,2024,840,251,22,0
+Woodlawn,2018,281,98,16,0
+Woodlawn,2019,272,93,13,0
+Woodlawn,2020,293,72,8,0
+Woodlawn,2021,367,110,16,1
+Woodlawn,2022,260,91,12,1
+Woodlawn,2023,306,106,13,1
+Woodlawn,2024,278,101,8,0

@@ -1,2 +1,6 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# Los notebooks se guardan sin outputs: el contenido que va a git es solo el código.
+# Requiere `nbstripout --install` una vez por clon (ver README).
+*.ipynb filter=nbstripout
+*.ipynb diff=ipynb
+*.xlsx filter=lfs diff=lfs merge=lfs -text
+*.parquet filter=lfs diff=lfs merge=lfs -text
