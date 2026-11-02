@@ -1,0 +1,33 @@
+﻿variable,categoria,odds_ratio,ic_inf,ic_sup,p_valor
+Franja,Madrugada (0-5),1.6027,1.4288,1.7978,0.0
+Franja,Mañana (6-11),1.1044,1.0293,1.185,0.0057
+Franja,Noche (18-23),1.2348,1.1282,1.3516,0.0
+Día,Fin de semana,1.1674,1.1009,1.2378,0.0
+Iluminación,Amanecer / anochecer,1.0487,0.9225,1.1921,0.4671
+Iluminación,Desconocido,0.642,0.4569,0.9021,0.0107
+Iluminación,Noche con alumbrado,1.0529,0.9599,1.155,0.2748
+Iluminación,Noche sin alumbrado,1.099,0.9497,1.2719,0.2051
+Clima,Desconocido,0.6176,0.4767,0.8003,0.0003
+Clima,Lluvia,0.7964,0.7293,0.8696,0.0
+Clima,Niebla / viento / otro,0.8656,0.6046,1.2393,0.4306
+Clima,Nieve / hielo,0.5938,0.4983,0.7077,0.0
+Clima,Nublado,0.8658,0.7432,1.0088,0.0646
+Tipo de choque,Ciclista,5.0252,4.5016,5.6097,0.0
+Tipo de choque,Colisión trasera,0.4416,0.3939,0.4951,0.0
+Tipo de choque,En ángulo,1.382,1.2807,1.4912,0.0
+Tipo de choque,Frontal,2.1147,1.7023,2.6271,0.0
+Tipo de choque,Objeto fijo,1.7726,1.2575,2.4988,0.0011
+Tipo de choque,Otros,1.2195,0.9657,1.5399,0.0955
+Tipo de choque,Peatón,9.9116,9.1469,10.7403,0.0
+Tipo de choque,Roce lateral,0.3759,0.3183,0.444,0.0
+Tipo de choque,Vehículo estacionado,0.351,0.2624,0.4695,0.0
+Causa,Alcohol / drogas,2.9126,2.281,3.719,0.0
+Causa,Desobediencia de señales,1.509,1.3941,1.6333,0.0
+Causa,Distracción,0.9775,0.7496,1.2748,0.8668
+Causa,Entorno y vía,0.9613,0.8178,1.13,0.6326
+Causa,Habilidad / condición del conductor,1.2721,1.0819,1.4957,0.0036
+Causa,Sin determinar,0.9452,0.8837,1.011,0.1005
+Causa,Vehículo / otros,1.5675,1.1233,2.1873,0.0082
+Causa,Velocidad,1.7427,1.5613,1.9453,0.0
+Vehículos,1,1.156,0.8225,1.6248,0.4039
+Vehículos,3 o más,2.7949,2.5893,3.0169,0.0

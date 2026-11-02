@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Caché de la descarga del portal de Chicago (se regenera con enriquecer_coordenadas.py)
+chicago_crashes_cache.parquet
+
+# HTML ejecutado con `jupyter nbconvert --execute` para revisar las salidas (ver README)
+build/
+
+# Sistema / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.claude/
+
+# Archivos temporales de Office
+~$*
