@@ -1,20 +1,14 @@
-# Dashboard Observatorio Vial · listo para Vercel
+# Landing rediseñada · Observatorio Vial
 
-## Publicar (sin Python / sin build)
+Este paquete contiene:
+- `index.html`: nueva landing/dashboard (reemplaza la página principal).
+- `data.json`: export de las salidas analíticas CSV del repositorio para que los gráficos se rendericen en el navegador.
+
+## Cómo integrarlo al repositorio ya conectado a Vercel
 1. Descomprimí este ZIP.
-2. Subí **todo el contenido** de esta carpeta a la raíz del repositorio GitHub conectado a Vercel (index.html, data.json y los dos mapas HTML).
-3. En Vercel → Settings → Build and Deployment:
-   - Framework Preset: **Other**
-   - Build Command: vacío / Override desactivado
-   - Output Directory: vacío (o `.`)
-   - Install Command: vacío / Override desactivado
-4. Deployments → Redeploy, o hacé commit/push a GitHub.
+2. Copiá `index.html` y `data.json` a la raíz del repositorio que alimenta `observatorio-vial-grupo1.vercel.app`.
+3. Conservá en esa raíz los archivos existentes `mapa_hotspots.html` y `mapa_riesgo_zonas.html` (la landing los enlaza).
+4. Commit y push a la rama que Vercel tiene conectada. No crees un proyecto Vercel nuevo.
+5. Si el proyecto es estático, en Vercel usá Framework Preset `Other` y sin Build Command.
 
-No requiere Python ni instalación de dependencias. Los gráficos usan Chart.js desde CDN.
-
-## Archivos
-- `index.html`: dashboard interactivo responsive.
-- `data.json`: datos preparados desde CSVs del proyecto (2018–2024).
-- `mapa_hotspots.html` y `mapa_riesgo_zonas.html`: mapas interactivos existentes.
-
-Nota: la torta de heridos representa siniestros con heridos vs sin heridos; no es un conteo de personas lesionadas.
+La página usa Chart.js desde CDN; para ver los gráficos necesita conexión a internet.
